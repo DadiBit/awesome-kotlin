@@ -2189,6 +2189,11 @@ category("Libraries/Frameworks") {
       desc = "Modern powerful Trakt API to track, discover and share your movies & TV shows."
       setPlatforms(JVM, JS, ANDROID, NATIVE, COMMON)
     }
+    link {
+      github = "open-meteo/open-meteo-api-kotlin"
+      desc = "Open-Meteo.com APIs SDK for global weather-related data."
+      setPlatforms(JVM, ANDROID)
+    }
   }
   subcategory("Internationalisation and Localization") {
     link {
